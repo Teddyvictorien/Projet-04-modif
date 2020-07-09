@@ -736,15 +736,15 @@ h4 {
     margin-bottom: 14px;
     margin-top: 24px;
 }
-.RS{
+.RS {
     display:flex;
     flex-direction:column;
     font-size:0.8em;
-    color:rgb(255,255,255); 
+    color:rgba(255,255,255,0.6); 
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: rgba(255,255,255,0.8)!important;
 }
 
 .portfolio-thumb {
@@ -788,13 +788,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: rgba(255,255,255,0.6)!important;
 }
-
-.btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
-}
+ .btn-atomic-tangerine:hover {
+    background: #c27956 !important;
+    color: rgba(255,255,255,0.6) !important;
+    }
 
 .ltc-white {
     color: #FFFFFF!important;
