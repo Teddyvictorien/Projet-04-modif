@@ -135,7 +135,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(239, 239, 239, .6);
 }
 
 .d-bloc .a-btn:hover,
@@ -737,14 +737,14 @@ h4 {
     margin-top: 24px;
 }
 .RS {
-    display:flex;
-    flex-direction:column;
-    font-size:0.8em;
-    color:rgba(255,255,255,0.6); 
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    color: #EFEFEF;
 }
 
 .white {
-    color: rgba(255,255,255,0.8)!important;
+    color: #EFEFEF !important;
 }
 
 .portfolio-thumb {
@@ -788,11 +788,11 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: rgba(255,255,255,0.6)!important;
+    color: #EFEFEF !important;
 }
- .btn-atomic-tangerine:hover {
-    background: #c27956 !important;
-    color: rgba(255,255,255,0.6) !important;
+    .btn-atomic-tangerine:hover {
+        background: #c27956 !important;
+        color: #EFEFEF !important;
     }
 
 .ltc-white {
