@@ -736,6 +736,12 @@ h4 {
     margin-bottom: 14px;
     margin-top: 24px;
 }
+.RS{
+    display:flex;
+    flex-direction:column;
+    font-size:0.8em;
+    color:#fffff6; 
+}
 
 .white {
     color: #FFFFFF!important;
