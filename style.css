@@ -19,7 +19,9 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
+blockquote{
+    color:#575757;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -135,7 +137,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(239, 239, 239, .6);
+    color: rgba(255, 255, 255, .6);
 }
 
 .d-bloc .a-btn:hover,
@@ -679,7 +681,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -737,14 +739,15 @@ h4 {
     margin-top: 24px;
 }
 .RS {
-    display: flex;
-    flex-direction: column;
-    font-size: 0.8em;
-    color: #EFEFEF;
+    display:flex;
+    flex-direction:column;
+    font-size:0.8em;
+    color:rgb(255,255,255); 
+    padding-bottom:10px;
 }
 
 .white {
-    color: #EFEFEF !important;
+    color: rgb(255,255,255)!important;
 }
 
 .portfolio-thumb {
@@ -779,7 +782,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #BB5B38;
 }
 
 .tc-white {
@@ -787,12 +790,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #EFEFEF !important;
+    background: #BB5B38;
+    color: rgb(255,255,255) !important;
 }
-    .btn-atomic-tangerine:hover {
-        background: #c27956 !important;
-        color: #EFEFEF !important;
+ .btn-atomic-tangerine:hover {
+    background: #c27956 !important;
+    color: rgb(255,255,255,) !important;
     }
 
 .ltc-white {
