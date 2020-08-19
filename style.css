@@ -9,13 +9,21 @@ body {
 .modif-text{
     font-size:0.8em;
 }
+.modif-color{
+    color: #442111!important;
+}
+a{
+
+}
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
-a:hover {
+a:focus{
+   border:3px solid black;
+}
+a:hover{
     text-decoration: none;
     cursor: pointer;
 }
