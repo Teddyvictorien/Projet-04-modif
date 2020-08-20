@@ -23,6 +23,9 @@ button {
 a:focus{
    border:3px solid black;
 }
+    button:focus {
+        border: 3px solid black;
+    }
 a:hover{
     text-decoration: none;
     cursor: pointer;
